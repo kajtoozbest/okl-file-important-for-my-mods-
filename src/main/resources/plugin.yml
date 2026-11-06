@@ -1,0 +1,14 @@
+name: OKL
+version: 1.0.0
+main: me.okl.OKL
+api-version: '1.21'
+description: /okl gives operator to listed trainees and logs what they do.
+commands:
+  okl:
+    description: Trainee operator command
+    usage: /okl [off | add <name> | remove <name> | list]
+    permission: okl.use
+permissions:
+  okl.use:
+    description: Allows running /okl (the name list still decides who gets op)
+    default: true
